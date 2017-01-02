@@ -1,2 +1,3 @@
 # straby
-Scripts criados por Black Straby
+Scripts simples sem dependencias criados por Black Straby
+Python - ShellScript
