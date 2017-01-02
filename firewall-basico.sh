@@ -1,9 +1,9 @@
 #!/bin/bash
-		###################################
-		#	@@Author: Black Straby		      #
-		#	@@Date: 02 jan 2017		          #
-		#   SCRIPT DE FIREWALL - IPTABLES	#
-		###################################
+		#########################################
+		#	@@Author: Black Straby      	#
+		#	@@Date: 02 jan 2017		#
+		#   SCRIPT DE FIREWALL - IPTABLES  	#
+		#########################################
 
 if [ $USER != 'root' ];then
 	echo "Voce precisa estar como Usuario Administrativo!"
