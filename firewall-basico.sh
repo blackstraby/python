@@ -11,6 +11,7 @@ if [ $USER != 'root' ];then
 else
 
 	echo "Exemplo: 192.168.0.1/255.255.255.0 ou 10.0.0.1/255.255.255.0"
+	echo ''
 	echo -n "Digite seu range de IP: "
 	read ip
 
