@@ -11,3 +11,6 @@ Desenvolvidos em: <b>Python3</b>.<br>
 
 <h4><a href="https://github.com/blackstraby/python/blob/master/consulta_cotacao.py" >Consulta Cotação: </a></h4>
 <p>Script para cosultar a cotação do Dólar, Euro e Bitcoin em tempo real. </p>
+
+<h4><a href="https://github.com/blackstraby/bash/blob/master/portScan.py" > Port Scanner: </a></h4>
+<p>Script para varrer portas abertas em determinada rede ou alvo. </p>
