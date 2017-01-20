@@ -18,8 +18,8 @@ def usage():
         print ('-h	 --help		= Menu de ajuda')
         print ('')
         print ("Examples: ")
-        print ("portScan.py  -h www.google.com 	-p 22")
-        print ("portScan.py  -h 192.168.0.104 	-p 65536")
+        print ("portScan.py  -t www.google.com 	-p 22")
+        print ("portScan.py  -t 192.168.0.104 	-p 65536")
         print ('')
         sys.exit(0)
 
