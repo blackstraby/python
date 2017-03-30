@@ -2,7 +2,8 @@
 @@Author: Black Straby
 @@Date: 02 jan 2017
 @@Script: consulta_cotacao.py
-@@Description: Atraves da API do site promasters.net.br, monitora cotacao do Euro, Dolar e Bitcoin a cada 5s. Basta um CTRL+C para finalizar o programa.
+@@Description: Atraves da API do site promasters.net.br, monitora cotacao do Euro, Dolar e Bitcoin a cada 5s. 
+Basta um CTRL+C para finalizar o programa.
 ''' 
 
 import requests
