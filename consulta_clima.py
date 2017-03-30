@@ -9,7 +9,7 @@ import requests
 import json
 
 def tempo_atual(cidade):
-	req = requests.get('http://api.openweathermap.org/data/2.5/weather?q='+cidade+'&appid=689a169eb0fb9ca28f3834f651c42246')
+	req = requests.get('http://api.openweathermap.org/data/2.5/weather?q='+cidade+'&appid=SUA-KEY-AQUI')
 	tempo = json.loads(req.text)
 	return tempo
 
