@@ -14,3 +14,6 @@ Desenvolvidos em: <b>Python3</b>.<br>
 
 <h4><a href="https://github.com/blackstraby/python/blob/master/portScan.py" > Port Scanner: </a></h4>
 <p>Script para varrer portas abertas em determinada rede ou alvo. </p>
+
+<h4><a href="https://github.com/blackstraby/python/blob/master/sendPacks_toDos.py" > Send Packs: </a></h4>
+<p>Script para enviar milhares de pacotes ao alvo,  podendo causar estressamento de processador e rede (DOS). </p>
