@@ -1,4 +1,13 @@
 # coding - utf-8
+'''
+        SendPacks_toDos.py v1.0
+    @@Author: Black Straby
+    @@Date: 03 April 2017
+    
+Pequena ferramenta para fazer DDOS atraves do envio de pacotes
+Mude o alvo na variavel IP
+'''
+
 import socket
 import time
 
@@ -25,6 +34,3 @@ while True:
 
     sent = sent + 1
     print("Enviado " + str(sent) + " pacotes para " + ip)
-
-
-
