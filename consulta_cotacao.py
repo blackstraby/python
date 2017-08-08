@@ -2,9 +2,10 @@
 @@Author: Black Straby
 @@Date: 02 jan 2017
 @@Script: consulta_cotacao.py
-@@Description: Atraves da API do site promasters.net.br, monitora cotacao do Euro, Dolar e Bitcoin a cada 5s. 
+@@Version: 0.0.2
+@@Description: Atraves da API do site promasters.net.br, monitora cotacao do Euro, Dolar e Bitcoin a cada 5s.
 Basta um CTRL+C para finalizar o programa.
-''' 
+'''
 
 import requests
 import json
@@ -15,13 +16,13 @@ import os
 while True:
 
 	try:
+		req = requests.get('http://api.promasters.net.br/cotacao/v1/valores')
+		cotacao = json.loads(req.text)
+
 		if os.name == "nt":
 			os.system("cls")
 		else:
 			os.system("clear")
-
-		req = requests.get('http://api.promasters.net.br/cotacao/v1/valores')
-		cotacao = json.loads(req.text)
 
 		print("#### COTACAO ####  ", datetime.datetime.now())
 		print("Cotacao do Dolar atual:", cotacao['valores']['USD']['valor'])
@@ -32,7 +33,7 @@ while True:
 
 	except KeyboardInterrupt:
 		print("Fechando cotacaos...")
-		time.sleep(2)
+		time.sleep(1)
 		exit()
 
 	except Exception as e:
