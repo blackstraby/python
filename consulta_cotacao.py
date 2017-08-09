@@ -32,7 +32,7 @@ while True:
 		time.sleep(5)
 
 	except KeyboardInterrupt:
-		print("Fechando cotacaos...")
+		print("Fechando cotacoes...")
 		time.sleep(1)
 		exit()
 
