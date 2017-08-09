@@ -37,5 +37,5 @@ while True:
 		exit()
 
 	except Exception as e:
-		print("Something went wrog :S", e)
+		print("Something went wrong :S", e)
 		exit()
