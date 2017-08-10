@@ -2,6 +2,10 @@ import time
 import requests
 import json
 import ChavesAPI
+'''
+ChavesAPI é um modulo que contem suas chaves e tokens provinientes
+de sua conta no Twitter. Dentro dela encontra-se os objetos Twitter1 e 2
+'''
 from datetime import datetime
 
 agora = datetime.now()
