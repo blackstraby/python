@@ -17,3 +17,6 @@ Desenvolvidos em: <b>Python3</b>.<br>
 
 <h4><a href="https://github.com/blackstraby/python/blob/master/sendPacks_toDos.py" > Send Packs: </a></h4>
 <p>Script para enviar milhares de pacotes ao alvo,  podendo causar estressamento de processador e rede (DOS). </p>
+
+<h4><a href="https://github.com/blackstraby/python/blob/master/classTwitter.py" > Classe Twitter: </a></h4>
+<p>Biblioteca utilziando API do Twitter para Publicar e Pesquisar Tweets</p>
