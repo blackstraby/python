@@ -2,6 +2,11 @@
 Developer: <h3>Black Straby</h3>
 Desenvolvidos em: <b>Python3</b>.<br>
 <br>
+<h4><a href="https://github.com/blackstraby/python/blob/master/classTwitter.py" > Classe Twitter: </a></h4>
+<p>Biblioteca utilziando API do Twitter para Publicar e Pesquisar Tweets.</p>
+
+<h4><a href="https://github.com/blackstraby/python/blob/master/MonitoraCotacao.py" > Monitora Cotação: </a></h4>
+<p>Mini Robo que monitora a cotação do Dolar e notifica seu Twitter via API (Necessário adicionar chaves).</p>
 
 <h4><a href="https://github.com/blackstraby/python/blob/master/bruteSSH.py"> BruteSSH: </a></h4>
 <p>Script para bruteforce em servidor SSH. </p>
@@ -18,5 +23,3 @@ Desenvolvidos em: <b>Python3</b>.<br>
 <h4><a href="https://github.com/blackstraby/python/blob/master/sendPacks_toDos.py" > Send Packs: </a></h4>
 <p>Script para enviar milhares de pacotes ao alvo,  podendo causar estressamento de processador e rede (DOS). </p>
 
-<h4><a href="https://github.com/blackstraby/python/blob/master/classTwitter.py" > Classe Twitter: </a></h4>
-<p>Biblioteca utilziando API do Twitter para Publicar e Pesquisar Tweets</p>
