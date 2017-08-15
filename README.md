@@ -23,3 +23,7 @@ Desenvolvidos em: <b>Python3</b>.<br>
 <h4><a href="https://github.com/blackstraby/python/blob/master/sendPacks_toDos.py" > Send Packs: </a></h4>
 <p>Script para enviar milhares de pacotes ao alvo,  podendo causar estressamento de processador e rede (DOS). </p>
 
+<h4><a href="https://github.com/blackstraby/python/blob/master/CotacaoBTC.py" > Cotacao Atualizada Bitcoin: </a></h4>
+<p>Script consulta em tempo real a cotacao do bitcoin fazendo varredura no HTML do site <i>https://br.investing.com/</i>. </p>
+
+
